@@ -1,0 +1,41 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a,b;
+    char op;
+    cout<<"Enter the first number: ";
+    cin>>a;
+    cout<<"Enter the second number: ";
+    cin>>b;
+    cout<<"Help: '+' - sum, '-' - difference, '*' - product, '/' - quotient '%' - modulo  \nEnter your option:";
+    cin>>op;
+    switch(op)
+    {
+        case '+':
+        {
+            cout<<a+b;
+            break;
+        }
+       case '-':
+        {
+            cout<<a-b;
+            break;
+        }
+        case '*':
+        {
+            cout<<a*b;
+            break;
+        }
+        case '/':
+        {
+            cout<<a/b;
+            break;
+        }
+        case '%':
+        {
+            cout<<a%b;
+            break;
+        }
+        
+    }
+}
