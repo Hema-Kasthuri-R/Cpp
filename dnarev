@@ -1,0 +1,15 @@
+#include <iostream>
+using std::string;
+using namespace std;
+int main() {
+    int len;
+    string dna;  
+    cout<<"Enter the dna sequence: \n";
+    cin>>dna;
+    len = dna.length() -1;
+    cout<<"The Reverse sequence: \n";
+    for(int i = len; i>=0; i--)
+    {
+        cout<<dna[i];
+    }
+}
