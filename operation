@@ -7,7 +7,7 @@ int main() {
     cin>>a;
     cout<<"Enter the second number: ";
     cin>>b;
-    cout<<"Help: '+' - sum, '-' - difference, '*' - product, '/' - quotient '%' - modulo  \nEnter your option:";
+    cout<<"Help: '+' - sum, '-' - difference, '*' - product, '/' - quotient '%' - modulo   \nEnter your option:";
     cin>>op;
     switch(op)
     {
